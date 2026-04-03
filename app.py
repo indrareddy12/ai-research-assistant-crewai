@@ -7,7 +7,7 @@ from crew import research_crew
 # Load environment variables
 load_dotenv()
 
-
+ 
 def check_api_keys():
     """Check if required API keys are set"""
     required_vars = ['SERPER_API_KEY', 'GROQ_API_KEY']
